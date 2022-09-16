@@ -135,13 +135,25 @@ img {
  }
 
  @media screen and (max-width: 480px){
+
+    /* ALL SECTION */
     .container{
         width: 100%;
+    }
+
+    /* HEADER */
+    .site-header h1{
+        font-size: 50px;
     }
 
     .row{
         display: flex;
         flex-wrap: wrap;
+    }
+
+    /* LESSONS SECTION */
+    .lessons h2{
+        font-size: 40px;
     }
 
     .lessons .col {
@@ -151,21 +163,24 @@ img {
     .lessons .col p{
         padding-bottom: 30px;
         margin: 0 auto;
-        width: 80%;
+        font-size: 20px;
     }
 
+     /* STEPS SECTION */
     .steps .col {
-        width: calc(100% / 1);
         width: calc(100% / 1);
         padding-bottom: 35px;
     }
 
-    .steps .col {
-        width: calc(100% / 1);
-        width: calc(100% / 1);
-        padding-bottom: 35px;
+    .steps .text-center .container p{
+        font-size: 40px;
     }
 
+    .steps p{
+        font-size: 20px;
+    }
+
+    /* WHY US SECTION */
     .why-us .container h2{
         width: 80%;
         margin: 0 auto;
@@ -186,5 +201,9 @@ img {
 
     .why-us .col-right h3 {
         font-size: 30px;
+    }
+
+    .why-us .col-right p{
+        font-size: 20px;
     }
  }
