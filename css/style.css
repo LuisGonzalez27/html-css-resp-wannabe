@@ -145,13 +145,19 @@ img {
  @media screen and (max-width: 480px){
 
     /* ALL SECTION */
+    .site-header {
+        margin: 0 auto;
+    }
+    
     .container{
         width: 100%;
+        padding: 0 20px;
     }
 
     /* HEADER */
     .site-header h1{
         font-size: 50px;
+        padding-top: 50px;
     }
 
     .row{
@@ -175,6 +181,9 @@ img {
     }
 
      /* STEPS SECTION */
+    .steps{
+        margin: 0;
+    }
     .steps .col {
         width: calc(100% / 1);
         padding-bottom: 35px;
@@ -189,6 +198,11 @@ img {
     }
 
     /* WHY US SECTION */
+    .why-us{
+        background-color: #222222;
+        padding: 60px 0;
+        margin: 0;
+    }
     .why-us .container h2{
         width: 80%;
         margin: 0 auto;
